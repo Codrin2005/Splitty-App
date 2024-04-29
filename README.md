@@ -115,18 +115,18 @@ Some buttons are colored. For example cancellation buttons are colored red, whil
 
 Some buttons are an icon for easier use, like a settings cog or an icon of a person with a plus sign , resembling add new participant.
 
-## confirmation popups
+## Confirmation popups
 When doing an irreversible action, we ask for confirmation from the user, just in case.
 
-## information popups
+## Information popups
 Whenever the user does something that needs some information, they get a popup with info. For example changing an event title would popup a window telling you if it is successful or a failure.
 
 If a user enters invalid information they get informed.
 
-## shortcuts
+## Shortcuts
 On the main screen, press the shortcuts button or use the shortcut `Alt + H` to view all available shortcuts and where.
 
-## navigation
+## Navigation
 Navigation is logical and consistent througout the application and accross different scenes. All scenes have a back button, so you can go back to the last viewed scene.
 
 Using the shortcuts you can create events, add expenses, change the title and more all without touching the mouse.
