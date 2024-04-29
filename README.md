@@ -1,7 +1,3 @@
-# OOPP Splitty Project
-
-Splitty.
-
 # Description:
 This app's purpoes is to help users manage shared expenses during events such as a grill or a get-together with friends. People can create events, add others to those events and create expenses for those events. The app gives the users an overview of how much money was spent on different categories and helps users settle their debts between each other. It is a very easy to use app, since there is no log in required.
 
@@ -36,7 +32,7 @@ This app's purpoes is to help users manage shared expenses during events such as
   - You can import an event (in JSON format)
   - The import and backup features are used in case an admin deletes an event by accident
 
-# running the project
+# Running the project
 Make sure to have the server running before you run the client.
 
 userconfig file
@@ -64,11 +60,11 @@ running the client
 
 `./gradlew run`
 
-# live updating
-## websockets
+# Live updating
+## WebSockets
 websockets are used in the event overview page. Websockets live sync all aspects of an event: expenses, participants, name changes etc.
 
-## longpolling
+## LongPolling
 used in the admin overview table. long polling is used when creating an event, updating an event or deleting it.
 
 
